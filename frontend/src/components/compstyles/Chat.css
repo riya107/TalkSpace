@@ -1,0 +1,83 @@
+.chat{
+    width: calc(100vw - 600px);
+    height: calc(100vh - 110px);
+}
+
+.messages{
+    height: calc(100vh - 300px);
+}
+
+.messages > div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.messages > div:first-child::-webkit-scrollbar-thumb{
+    background: #787878;
+    border-radius: 20px;
+}
+
+.messages > div:first-child::-webkit-scrollbar-track{
+    background: #d7d7d7;
+    border-radius: 20px;
+}
+
+.messages > div:first-child::-webkit-scrollbar{
+    width: 0.3em;
+    height: 0.3em;
+}
+
+.grp-name{
+    color: rgb(5, 83, 240);
+    font-size: larger;
+    font-weight:bolder;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 2px 2px 10px rgb(205, 204, 204);
+    border-radius: 1em;
+    width: fit-content;
+    margin: 1em auto;
+}
+
+.snd{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0px;
+    margin: 0.5em;
+}
+
+.snd-out{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 83, 240);
+    box-shadow: 2px 2px 10px rgb(205, 204, 204);
+    cursor: pointer;
+    border-radius: 450px;
+}
+
+.hid{
+    display: none;
+}
+
+.mess-inp{
+    border: 0px none;
+    border: 2px solid gray;
+    border-radius: 2em;
+    padding: 1em;
+    font-size: large;
+    margin: 0.3em;
+    width: 350px;
+}
+
+.mess-inp:focus{
+    outline: none;
+}

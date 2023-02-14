@@ -1,0 +1,68 @@
+.navbar{
+    background-image: linear-gradient(rgb(5, 83, 240), rgb(0, 247, 255));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger{
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.navi{
+    border-radius: 0.75em;
+    color: white;
+    font-weight: 800;
+    margin: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bg-w{
+    background-color: white;
+    color: black;
+}
+
+.leftnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.navitems{
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navi:hover{
+    background-color: white;
+    color: black;
+}
+
+.applogobox{
+    background-color: white;
+    border:2px solid black;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.hambox{
+    margin: 1em;
+}
+
+.navlogotext{
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.groups{
+    width: 550px;
+    height: calc(100vh - 110px);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.groups::-webkit-scrollbar-thumb{
+    background: #787878;
+    border-radius: 20px;
+}
+
+.groups::-webkit-scrollbar-track{
+    background: #d7d7d7;
+    border-radius: 20px;
+}
+
+.groups::-webkit-scrollbar{
+    width: 0.3em;
+    height: 0.3em;
+}
+
+.groups-out{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+.groups-head{
+    font-size: large;
+    font-weight: 800;
+    padding: 0.5em;
+    margin: 0.5em;
+}

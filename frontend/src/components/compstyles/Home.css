@@ -1,0 +1,26 @@
+.bg{
+    height: 100vh;
+    background-image: white;
+}
+
+.sectext{
+    width: fit-content;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 1em;
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    margin-bottom: 0.25em;
+}
+
+.right{
+    align-self: flex-end;
+}
+
+.secdiv{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}

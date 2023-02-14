@@ -1,0 +1,54 @@
+.logobox{
+    background-color: white;
+    border:2px solid black;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.logotext{
+    cursor: pointer;
+}
+
+.chatbg{
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.googlelogo{
+    margin:0.5em;
+}
+
+.loginbtn{
+    background-color: white;
+    border: white;
+    font-weight: 800;
+    font-size: large;
+    cursor: pointer;
+}
+
+.loginbox{
+    background-color: white;
+    border:2px solid black;
+    padding: 0.5em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.loginbar{
+    background-image: linear-gradient(rgb(5, 83, 240), rgb(0, 247, 255));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
