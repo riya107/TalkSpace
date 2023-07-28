@@ -47,7 +47,7 @@ const Login = () => {
             className="applogo"
             alt="app logo"
           ></img>
-          <p className="logotext">Group Chat</p>
+          <p className="logotext">TalkSpace</p>
         </div>
         <div className="loginbox">
           <img

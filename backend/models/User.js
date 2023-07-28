@@ -5,7 +5,6 @@ const inviteSchema = new mongoose.Schema(
     groupId: {
       type: mongoose.Schema.ObjectId,
       ref: "User",
-      unique: true,
     },
     groupName: {
       type: String,

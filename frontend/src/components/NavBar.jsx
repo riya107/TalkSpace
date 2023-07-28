@@ -42,7 +42,7 @@ const NavBar = () => {
                 <div className='leftnav'>
                 <div className='applogobox'>
                     <img src={ChatLogo} height={30} className="navapplogo" alt='app logo'></img>
-                    <p className='navlogotext'>Group Chat</p>
+                    <p className='navlogotext'>TalkSpace</p>
                 </div>
                 <div className='navitems'>
                     <Link to='/' className={tabs.home?'navi bg-w':'navi'}>Home</Link>

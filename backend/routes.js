@@ -8,8 +8,16 @@ router.post("/signin", decodeToken, async (req, res) => {
   try {
     const { name } = req.body;
     const { email } = req.body;
-    await User.updateOne({ email }, { name, email }, { upsert: true });
-    const user = await User.findOne({ email });
+
+    let user = await User.findOne({ email });
+    if(!user){
+      user = new User({
+        name, email
+      });
+  
+      user = await user.save();
+  
+    }
     return res.status(200).json({ success: true, data: user });
   } catch (err) {
     console.log(err);
